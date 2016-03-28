@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+.defbg{background:url(../images/feibg.jpg);-webkit-background-size:60px 60px;background-size:60px 60px; }
+.defslider{ position:relative; overflow:hidden; margin:0 auto; background:#fff;z-index:10;border-bottom:1px #dfdfdf solid;}
+.defslider .hd{width:100%;position:absolute;z-index:50;height:16px; line-height:16px; right:0; bottom:5px;}
+.defslider .hd ul{ text-align:center;}
+.defslider .hd li{ display:inline-block!important; width:8px; height:8px; -webkit-border-radius:8px; -moz-border-radius:8px; border-radius:8px; background:#ccc; border:1px #666 solid; text-indent:-9999px; overflow:hidden; margin:0 3px;}
+.defslider .hd li.on{ background:#4b0d65; border:1px #4b0d65 solid;}
+.defslider .bd{position:relative; z-index:10; }
+.defslider .bd li{position:relative; text-align:center; }
+.defslider .bd li img{width:100%!important;max-width:100%;background:url(../images/loading.gif) center center no-repeat;  }
+.ycerwmbox{z-index:1055;width:100%;height:100%;left:0;top:0;margin:0;padding:0;border:0; background: rgba(0,0,0,0.7);display: none;}
+.ycerwmcon{width: 300px;height: 300px;display: -webkit-box;-webkit-box-orient: vertical;-webkit-box-align: center;text-align: center;background: #fff; padding:8px;border-radius: 6px;color: #fff;font-size: 16px;}
+/* 首页商品列表 */
+.indexlist{ padding:22px 10px; height:100%; display:block;}
+.indexlist li{width:50%;float:left;border:1px #fff solid;background:#fff; margin-bottom:18px ;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box; }
+.indexlist li a{overflow: hidden; display: block; }
+.indexlist li .gcopic{border:1px #f6f6f6 solid;position: relative;padding-top: 50%;}
+.indexlist li .gcopic span{width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: 2;background-repeat: no-repeat;-webkit-background-size: 100% 100%;background-size: 100% 100%;}
+.indexlist li .soldout:after {width: 100%;height: 100%;position:absolute; content:""; right:0; top:0;  background:url(../images/soldout.png) no-repeat center center rgba(0,0,0,0.15);background-size:35% 70%;z-index:10;}
+.indexlist li .mtit{min-height: 20px; line-height:20px;text-align:left; padding:5px;margin-top:8px;}
+.indexlist li p{ line-height:140%; text-align:left;}
+.indexlist li .plist{border-bottom:1px #ccc dotted;margin: 0 10px;padding-bottom: 8px;}
+.indexlist li .infodiv{padding-bottom: 10px; position: relative;display: -webkit-box;display: box;-webkit-box-orient: vertical;-webkit-box-pack: center; overflow: hidden;}
+.indexlist li .mprice{ line-height:120%; text-align:left;padding:8px 5px 0 5px;}
+.indexlist li .purcol{color: #8016AD;}
+.indexlist li .btnbox{-webkit-box-sizing:border-box; -moz-box-sizing:border-box;box-sizing:border-box; position:absolute; top:50%;right:0px; margin-top:-30px;}
+.indexlist li .indxcart{width:52px;height: 52px;display:block;background-image:url(../images/jiacartico.png);background-position:center center; background-repeat:no-repeat;-webkit-background-size:45px 45px !important;background-size:45px 45px !important;opacity: 0.7;}
+.indexlist li .cosbox{width: 60px;overflow: hidden;}
+.indexlist li .countryico{width:40px; height:28px; margin:0 auto;display:block; text-align:center;border: 1px #dfdfdf solid; overflow: hidden;}
+.indexlist li .countryico img{width:40px; height:28px;}
+.indexlist li .countrytxt{width:60px;height:20px;line-height:20px; text-align: center;display: block; overflow: hidden; padding-top: 2px;}
